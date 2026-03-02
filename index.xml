@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASD blog</title>
+    <link>https://ASD.github.io/</link>
+    <description>Recent content on ASD blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ASD.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>联系我</title>
+      <link>https://ASD.github.io/contact/contact/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ASD.github.io/contact/contact/</guid>
+      
+      <description>QQ邮箱:1740582011@qq.com 谷歌邮箱:1740582011myself@gmail.com </description>
+      
+    </item>
+    
+    <item>
+      <title>运动学逆解</title>
+      <link>https://ASD.github.io/posts/%E8%BF%90%E5%8A%A8%E5%AD%A6%E9%80%86%E8%A7%A3/inverse-kinematics-solution/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ASD.github.io/posts/%E8%BF%90%E5%8A%A8%E5%AD%A6%E9%80%86%E8%A7%A3/inverse-kinematics-solution/</guid>
+      
+      <description>运动学逆解 机构具有确定运动的条件 机构的原动件(比如说电机)数目应等于机构的自由度数目，此时机构有确定的运动。机构自由度＝原动件数＞0 当机构原动件的数目小于机构的自由度时，机构的运动也不是毫无规律，而是遵循最小阻力定律，即优先沿阻力最小的方向运动。(例如单个麦克纳姆轮轮毂轴转动时沿辊子方向移动)
+运动学建模包括正运动学和逆运动学 逆运动学：通过轮子的运动状态反对轮毂的转速 正运动学：通过轮毂转速推轮子的运动状态
+1.麦克纳姆轮 2.两轮差速 差速车再平面内运动，控制
+3.四轮底盘 参考： https://zju-helloworld.github.io/Wiki/%E7%BB%84%E4%BB%B6%E8%AF%B4%E6%98%8E%EF%BC%88%E6%97%A7%EF%BC%89/%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%80%9A%E7%94%A8%E7%BB%84%E4%BB%B6/%E7%AE%97%E6%B3%95/%E5%BA%95%E7%9B%98%E9%80%86%E8%BF%90%E5%8A%A8%E5%AD%A6%E8%A7%A3%E7%AE%97/
+https://g6ursaxeei.feishu.cn/wiki/wikcnfVj5iRhjhn4QNNpaFGMeDh?table=tblDBoGzi8ASFqbx&amp;view=vewx5ZOj1f
+https://blog.csdn.net/m0_55933541/article/details/134040714
+（优化）https://blog.csdn.net/sinat_52032317/article/details/132125557
+完整约束和非完整约束区别：https://zhuanlan.zhihu.com/p/10332195403 https://blog.csdn.net/Kalenee/article/details/107747897
+https://zhuanlan.zhihu.com/p/82621398
+rm开源：https://docs.qq.com/sheet/DUFlaU0FHZk1QS0l1?tab=bb08j2
+https://www.ros.org/reps/rep-0103.html
+指令集和微架构https://blog.csdn.net/Interesting1024/article/details/109287854</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -8,6 +8,26 @@
     <language>zh-cn</language>
     <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ASD.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>markdown基本使用方法</title>
+      <link>https://ASD.github.io/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ASD.github.io/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/</guid>
+      
+      <description>MARKDOWN MARKDOWN-标题 一级标题# 二级标题## 最多支持六级标题 标题号“#”之后空格才会使标题符生效，大小随标题级别从大到小
+表示引用中的标题 #生效范围在第一个格之内 标题————其中星号对数如果是奇数，则为斜体，为偶数则为正体
+MARKDOWN-引用 可以作为注释，看起来更好看
+引用的嵌套（引用里面的引用）,接下来的行都会被作为嵌套的内容 如果想要取消嵌套，空一行即可
+注：非嵌套引用，且下一行没有功能字符，如果不空行同样被视为引用的内容(前提是引用符号后有内容) eg:你好
+空行后：你好
+MARKDOWN-列表 1.无序列表 格式:- + * 生效方式：列表符号+空格 先列表后引用
+-
+2.有序列表 注:.号前面数字可以是随机的，但必须是数字
+3.嵌套 嵌套 嵌套 4.TODOLIST （待做表） a b c MARKDOWN-表格 左对齐 居中对齐 右对齐 a b c MARKDOWN-段落 换行————空两个格后回车或者直接空一行(由于preview enhanced插件自动勾选break on single new line，所以不需要执行此操作) 分割线———三个* 字体 字体 代码 ==高亮== ==== 斜体 ** 粗体 **** 斜粗体 ****** 删除 ~~~~ 下划线或者下划线 z或者 脚注 HELLO WORD1 代码 多段代码展示:~~~~~~ 超链接 了解更多请点击： https://www.</description>
+      
+    </item>
+    
+    <item>
       <title>联系我</title>
       <link>https://ASD.github.io/contact/contact/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>

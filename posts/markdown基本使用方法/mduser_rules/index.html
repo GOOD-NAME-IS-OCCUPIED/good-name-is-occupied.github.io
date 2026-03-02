@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">markdown基本使用方法 | ASD blog</title>
+<meta property="og:title" content="markdown基本使用方法 | ASD blog" />
+<meta name="twitter:title" content="markdown基本使用方法 | ASD blog" />
+<meta itemprop="name" content="markdown基本使用方法 | ASD blog" />
+<meta name="application-name" content="markdown基本使用方法 | ASD blog" />
+<meta property="og:site_name" content="ASD的博客" />
+
+<meta name="description" content="支持亮色和暗色模式的极简 Hugo 博客主题">
+<meta itemprop="description" content="支持亮色和暗色模式的极简 Hugo 博客主题" />
+<meta property="og:description" content="支持亮色和暗色模式的极简 Hugo 博客主题" />
+<meta name="twitter:description" content="支持亮色和暗色模式的极简 Hugo 博客主题" />
+
+<meta property="og:locale" content="zh-cn" />
+<meta name="language" content="zh-cn" />
+
+  <link rel="alternate" hreflang="zh-cn" href="https://ASD.github.io/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/" title="Chinese" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2026-03-02T00:00:00Z />
+    <meta property="article:published_time" content=2026-03-02T00:00:00Z />
+    <meta property="og:url" content="https://ASD.github.io/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/" />
+
+    
+    <meta property="og:article:author" content="ASD" />
+    <meta property="article:author" content="ASD" />
+    <meta name="author" content="ASD" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "markdown基本使用方法",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2026-03-02",
+        "description": "",
+        "wordCount":  81 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2026-03-02",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "ASD blog"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.131.0">
+
+    
+    <meta property="og:url" content="https://ASD.github.io/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/">
+  <meta property="og:site_name" content="ASD blog">
+  <meta property="og:title" content="markdown基本使用方法">
+  <meta property="og:description" content="MARKDOWN MARKDOWN-标题 一级标题# 二级标题## 最多支持六级标题 标题号“#”之后空格才会使标题符生效，大小随标题级别从大到小
+表示引用中的标题 #生效范围在第一个格之内 标题————其中星号对数如果是奇数，则为斜体，为偶数则为正体
+MARKDOWN-引用 可以作为注释，看起来更好看
+引用的嵌套（引用里面的引用）,接下来的行都会被作为嵌套的内容 如果想要取消嵌套，空一行即可
+注：非嵌套引用，且下一行没有功能字符，如果不空行同样被视为引用的内容(前提是引用符号后有内容) eg:你好
+空行后：你好
+MARKDOWN-列表 1.无序列表 格式:- &#43; * 生效方式：列表符号&#43;空格 先列表后引用
+-
+2.有序列表 注:.号前面数字可以是随机的，但必须是数字
+3.嵌套 嵌套 嵌套 4.TODOLIST （待做表） a b c MARKDOWN-表格 左对齐 居中对齐 右对齐 a b c MARKDOWN-段落 换行————空两个格后回车或者直接空一行(由于preview enhanced插件自动勾选break on single new line，所以不需要执行此操作) 分割线———三个* 字体 字体 代码 ==高亮== ==== 斜体 ** 粗体 **** 斜粗体 ****** 删除 ~~~~ 下划线或者下划线 z或者 脚注 HELLO WORD1 代码 多段代码展示:~~~~~~ 超链接 了解更多请点击： https://www.">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-03-02T00:00:00+00:00">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="markdown基本使用方法">
+  <meta name="twitter:description" content="MARKDOWN MARKDOWN-标题 一级标题# 二级标题## 最多支持六级标题 标题号“#”之后空格才会使标题符生效，大小随标题级别从大到小
+表示引用中的标题 #生效范围在第一个格之内 标题————其中星号对数如果是奇数，则为斜体，为偶数则为正体
+MARKDOWN-引用 可以作为注释，看起来更好看
+引用的嵌套（引用里面的引用）,接下来的行都会被作为嵌套的内容 如果想要取消嵌套，空一行即可
+注：非嵌套引用，且下一行没有功能字符，如果不空行同样被视为引用的内容(前提是引用符号后有内容) eg:你好
+空行后：你好
+MARKDOWN-列表 1.无序列表 格式:- &#43; * 生效方式：列表符号&#43;空格 先列表后引用
+-
+2.有序列表 注:.号前面数字可以是随机的，但必须是数字
+3.嵌套 嵌套 嵌套 4.TODOLIST （待做表） a b c MARKDOWN-表格 左对齐 居中对齐 右对齐 a b c MARKDOWN-段落 换行————空两个格后回车或者直接空一行(由于preview enhanced插件自动勾选break on single new line，所以不需要执行此操作) 分割线———三个* 字体 字体 代码 ==高亮== ==== 斜体 ** 粗体 **** 斜粗体 ****** 删除 ~~~~ 下划线或者下划线 z或者 脚注 HELLO WORD1 代码 多段代码展示:~~~~~~ 超链接 了解更多请点击： https://www.">
+
+
+    
+
+    <link rel="canonical" href="https://ASD.github.io/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/">
+    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://ASD.github.io/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+    <meta name="color-scheme" content="light dark">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+  
+
+
+    
+</head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://ASD.github.io/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>首页</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        首页
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        文章
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/contact/">
+                        联系
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">markdown基本使用方法</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2026-03-02T00:00:00&#43;00:00" itemprop="datePublished"> 2026年03月02日 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b>目录</b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#markdown-标题">MARKDOWN-标题</a>
+      <ul>
+        <li><a href="#表示引用中的标题">表示引用中的标题</a></li>
+      </ul>
+    </li>
+    <li><a href="#markdown-引用">MARKDOWN-引用</a></li>
+    <li><a href="#markdown-列表">MARKDOWN-列表</a>
+      <ul>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#markdown-表格">MARKDOWN-表格</a></li>
+    <li><a href="#markdown-段落">MARKDOWN-段落</a></li>
+    <li><a href="#代码">代码</a></li>
+    <li><a href="#超链接">超链接</a></li>
+    <li><a href="#图片">图片</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <h1 id="markdown">MARKDOWN</h1>
+<hr>
+<h2 id="markdown-标题">MARKDOWN-标题</h2>
+<blockquote>
+<p>一级标题#
+二级标题##
+最多支持六级标题
+标题号“#”之后空格才会使标题符生效，大小随标题级别从大到小</p>
+<blockquote>
+<h3 id="表示引用中的标题">表示引用中的标题</h3>
+</blockquote>
+<p>#生效范围在第一个格之内
+<em>标题</em>————其中星号对数如果是奇数，则为斜体，为偶数则为正体</p>
+</blockquote>
+<h2 id="markdown-引用">MARKDOWN-引用</h2>
+<blockquote>
+<p>可以作为注释，看起来更好看</p>
+<blockquote>
+<p>引用的嵌套（引用里面的引用）,接下来的行都会被作为嵌套的内容
+如果想要取消嵌套，空一行即可</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>注：非嵌套引用，且下一行没有功能字符，如果不空行同样被视为引用的内容(前提是引用符号后有内容)
+eg:你好</p>
+</blockquote>
+<p>空行后：你好</p>
+<h2 id="markdown-列表">MARKDOWN-列表</h2>
+<h5 id="1无序列表">1.无序列表</h5>
+<blockquote>
+<p>格式:-    +    *
+生效方式：列表符号+空格
+先列表后引用</p>
+<p>-</p>
+</blockquote>
+<h5 id="2有序列表">2.有序列表</h5>
+<blockquote>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<blockquote>
+<p>注:.号前面数字可以是随机的，但必须是数字</p>
+</blockquote>
+</blockquote>
+<h5 id="3嵌套">3.嵌套</h5>
+<blockquote>
+<ol>
+<li></li>
+<li>嵌套</li>
+<li>嵌套</li>
+<li>
+<ol>
+<li></li>
+<li>
+<ol>
+<li></li>
+<li></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h5 id="4todolist-待做表">4.TODOLIST （待做表）</h5>
+<blockquote>
+<ul>
+<li><input disabled="" type="checkbox"> a</li>
+</ul>
+<ul>
+<li><input disabled="" type="checkbox"> b</li>
+</ul>
+<ul>
+<li><input disabled="" type="checkbox"> c</li>
+</ul>
+</blockquote>
+<h2 id="markdown-表格">MARKDOWN-表格</h2>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:center">居中对齐</th>
+<th style="text-align:right">右对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">a</td>
+<td style="text-align:center">b</td>
+<td style="text-align:right">c</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h2 id="markdown-段落">MARKDOWN-段落</h2>
+<blockquote>
+<ol>
+<li>换行————空两个格后回车或者直接空一行(由于preview enhanced插件自动勾选break on single new line，所以不需要执行此操作)</li>
+<li>分割线———三个*</li>
+</ol>
+<hr>
+<hr>
+<hr>
+<ol start="3">
+<li>字体</li>
+</ol>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">字体</th>
+<th style="text-align:center">代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">==高亮==</td>
+<td style="text-align:center">====</td>
+</tr>
+<tr>
+<td style="text-align:left"><em>斜体</em></td>
+<td style="text-align:center">**</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>粗体</strong></td>
+<td style="text-align:center">****</td>
+</tr>
+<tr>
+<td style="text-align:left"><em><strong>斜粗体</strong></em></td>
+<td style="text-align:center">******</td>
+</tr>
+<tr>
+<td style="text-align:left"><del>删除</del></td>
+<td style="text-align:center">~~~~</td>
+</tr>
+<tr>
+<td style="text-align:left"><u>下划线</u>或者<u>下划线</td>
+<td style="text-align:center"><u></u>z或者<u></td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<ol start="4">
+<li>脚注
+HELLO WORD<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ol>
+</blockquote>
+<h2 id="代码">代码</h2>
+<pre tabindex="0"><code>多段代码展示:~~~
+            ~~~
+</code></pre><h2 id="超链接">超链接</h2>
+<blockquote>
+<p>了解更多请点击： <a href="https://www.bilibili.com/">https://www.bilibili.com/</a>
+点击链接<a href="https://www.bilibili.com/">点击</a></p>
+</blockquote>
+<h2 id="图片">图片</h2>
+<blockquote>
+<p>路过图床: <a href="https://imgse.com">https://imgse.com</a>
+路过图床<a href="https://imgse.com">点击</a></p>
+</blockquote>
+<blockquote>
+<p>通过markdown语法插入图片（markdown不支持改变图片大小和位置）
+<a href="https://imgse.com/i/pABVNE4"><img alt="pABVNE4.jpg" src="https://s21.ax1x.com/2024/10/29/pABVNE4.jpg"></a>
+用HTML改变图像大小和位置
+<a href="https://imgse.com/i/pABVNE4"><div
+align= right><img src="https://s21.ax1x.com/2024/10/29/pABVNE4.jpg" 
+alt="pABVNE4.jpg" border="0" width="69%" height="31"/></a></p>
+</blockquote>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>你好世界&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/GOOD-NAME-IS-OCCUPIED" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2026 ASD.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+</footer><a href="#" title="回到顶部" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script src="https://ASD.github.io/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+
+    
+
+</body>
+</html>

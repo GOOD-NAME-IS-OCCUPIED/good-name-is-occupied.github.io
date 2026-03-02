@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ASD.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ASD.github.io/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ASD.github.io/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/</loc>
+    <loc>http://localhost:1313/posts/markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/mduser_rules/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ASD.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ASD.github.io/contact/contact/</loc>
+    <loc>http://localhost:1313/contact/contact/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ASD.github.io/posts/%E8%BF%90%E5%8A%A8%E5%AD%A6%E9%80%86%E8%A7%A3/inverse-kinematics-solution/</loc>
+    <loc>http://localhost:1313/posts/%E8%BF%90%E5%8A%A8%E5%AD%A6%E9%80%86%E8%A7%A3/inverse-kinematics-solution/</loc>
     <lastmod>2026-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ASD.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://ASD.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

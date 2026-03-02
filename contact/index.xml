@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on ASD blog</title>
-    <link>https://ASD.github.io/contact/</link>
+    <link>http://localhost:1313/contact/</link>
     <description>Recent content in Contacts on ASD blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ASD.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>联系我</title>
-      <link>https://ASD.github.io/contact/contact/</link>
+      <link>http://localhost:1313/contact/contact/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://ASD.github.io/contact/contact/</guid>
+      <guid>http://localhost:1313/contact/contact/</guid>
       
       <description>QQ邮箱:1740582011@qq.com 谷歌邮箱:1740582011myself@gmail.com </description>
       
